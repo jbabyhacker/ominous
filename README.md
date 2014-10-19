@@ -1,6 +1,6 @@
 #About
 
-Final project for MU201x, Making Music With Machines, 
+Final project for MU201x, Making Music With Machines.
 
 #### OS Support
 
