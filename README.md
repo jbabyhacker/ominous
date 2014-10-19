@@ -25,5 +25,6 @@ Final project for MU201x, Making Music With Machines,
   Doxygen documentation can be built by running:
   
   ```
+  $ brew install doxygen
   $ sh gendoc.sh
   ```
