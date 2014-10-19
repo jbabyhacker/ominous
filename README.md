@@ -13,6 +13,7 @@ Final project for MU201X, Making Music With Machines.
   Next install the homebrew tap, autoconf, and OpenCV:
   ```
   $ brew tap homebrew/science
+  $ brew install automake
   $ brew install autoconf
   $ brew install opencv
   ```
