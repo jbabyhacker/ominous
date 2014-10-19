@@ -61,7 +61,7 @@ volatile int data[12] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 pthread_mutex_t dataMutex = PTHREAD_MUTEX_INITIALIZER;
 
 int main(void) {
-	cout << "Launching Mable..." << endl;
+	cout << "Launching Ominous..." << endl;
 
 	VideoCapture cap(0); //capture the video from web cam
 
