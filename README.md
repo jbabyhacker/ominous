@@ -13,24 +13,20 @@ Final project for MU201X, Making Music With Machines.
   Next install the homebrew tap, autoconf, and OpenCV:
   ```
   $ brew tap homebrew/science
-  $ brew install automake
-  $ brew install autoconf
-  $ brew install opencv
+  $ brew install automake autoconf doxygen opencv
   ```
 #### Building
 
   ```
   $ git clone https://github.com/jbabyhacker/ominous.git
   $ cd ominous
-  $ sh autogen.sh
-  $ make
+  $ sh autogen.sh && make
   ```
 
 #### Documentation
 
   Doxygen documentation can be built by running:
   ```
-  $ brew install doxygen
   $ sh gendoc.sh
   ```
   
