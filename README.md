@@ -2,6 +2,10 @@
 
 Final project for MU201x, Making Music With Machines, 
 
+#### OS Support
+
+  Ominous has been tested on Mac OS X but it should also work on linux.
+  Windows is support is unknown because the serial communication code works on POSIX systems only.
 
 #### Dependencies - OpenCV
 
@@ -28,3 +32,4 @@ Final project for MU201x, Making Music With Machines,
   $ brew install doxygen
   $ sh gendoc.sh
   ```
+  
