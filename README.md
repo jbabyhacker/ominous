@@ -4,8 +4,7 @@ Final project for MU201X, Making Music With Machines.
 
 #### OS Support
 
-  Ominous has been tested on Mac OS X but it should also work on linux.
-  Windows support is unknown because the serial communication code works on POSIX systems only.
+  Ominous has been tested on Mac OS X but it should also work on linux. Serial communication code works on POSIX systems only.
 
 #### Dependencies
 
