@@ -1,6 +1,6 @@
 #About
 
-Final project for MU201X, Making Music With Machines.
+Final project for MU201X, Making Music With Machines. Arduino code can be found at https://github.com/jbabyhacker/omino
 
 The idea behind our design is to control the instruments as the conductor. Since most artists compose for all of their machines by themself, we wanted to allow for more than one person to control the musical machines at the same time. It consists of a webcam mounted above a 3x2 feet black felt surface in which the operator moves colored cubes and spheres around it. Different colors are mapped to different musical machines. There are 6 blocks total, 3 sphere and 3 cubes, while each cube-sphere set is blue, green, and pink. Moving the cubes around the surface control the rhythm for that instrument while moving the sphere control the melody. 
 
@@ -10,6 +10,7 @@ Future Improvements
 - [ ] Make camera sensing software more robust (currently it is sensitive to lights and shadows)
 - [ ] Use multiple threads to speed up sample rate
 - [ ] Use flat paint on objects, glossy paint reflects the light
+- [ ] Don't have hard coded rhythms and melodies on the Arduino
 
 Possible features to add more control parameters
 - [ ]	Instead of having objects mapped to a virtual grid, have it be in relations to other objects
