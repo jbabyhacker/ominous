@@ -9,7 +9,7 @@ Final project for MU201X, Making Music With Machines.
 #### Dependencies
 
   On Mac OS X, I recommend using homebrew to install autoconf and OpenCV. It can be downloaded from http://brew.sh.
-  Next install the homebrew tap, autoconf, and OpenCV:
+  Next install the homebrew tap, automake, autoconf, doxygen, and OpenCV:
   ```
   $ brew tap homebrew/science
   $ brew install automake autoconf doxygen opencv
