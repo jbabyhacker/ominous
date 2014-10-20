@@ -17,9 +17,8 @@ Final project for MU201X, Making Music With Machines.
   ```
 #### Building
 
+  The autogen.sh script will run autoreconf and then configure the project.
   ```
-  $ git clone https://github.com/jbabyhacker/ominous.git
-  $ cd ominous
   $ sh autogen.sh && make
   ```
 
@@ -30,3 +29,9 @@ Final project for MU201X, Making Music With Machines.
   $ sh gendoc.sh
   ```
   
+#### Restore
+
+  You can restore the directory to its pre-autoreconf and configure state:
+  ```
+  $ sh restore.sh
+  ```
