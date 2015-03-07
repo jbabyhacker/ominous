@@ -1,5 +1,12 @@
 #!/bin/sh
 
+#################################################################
+# Jason Klein - restore.sh                                      #
+# March 2015                                                    #
+# Restores directory to initial state by removing files created #
+# by autogen.sh, configure, make, and gendoc.sh                 #
+#################################################################
+
 # welcome message
 echo Restoring package to original state
 
