@@ -7,7 +7,11 @@
 ###################################
 
 # welcome message
-echo Generating Doxygen documentation
+echo "####################################"
+echo "# Generating Doxygen documentation #"
+echo "####################################"
+
+sleep 0.5
 
 # generate documentation
 doxygen MusicTable.doxyfile
