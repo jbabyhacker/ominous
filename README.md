@@ -36,9 +36,9 @@ Possible features to add more control parameters
   ```
 #### Building
 
-  The autogen.sh script will run autoreconf and then configure the project:
+  The autogen.sh script with run autoreconf, configure, make, and generate documentation:
   ```
-  $ sh autogen.sh && make
+  $ sh autogen.sh all
   ```
 
 #### Documentation
